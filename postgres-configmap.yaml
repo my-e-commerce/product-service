@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-configmap
+data:
+  # kv format
+  POSTGRES_HOST: "product-service"
+  POSTGRES_DB: "productdb"
+  POSTGRES_PORT: "5432"
